@@ -1,0 +1,11 @@
+{
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "type": "module",
+  "private": true,
+  "name": "@local/dsh-workflow-presets",
+  "version": "1.0.0"
+}
