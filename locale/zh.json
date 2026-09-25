@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "工作流预设",
+    "description": "Claude Code / Codex CLI 风格的工作流 Agent 预设：persona、工具集与工程纪律，按正式插件安装到任意 DSH profile。"
+  }
+}

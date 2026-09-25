@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Workflow Presets",
+    "description": "Workflow-style agent presets (Claude Code, Codex CLI): persona, tool rows, and engineering discipline installed as a normal DSH plugin bundle."
+  }
+}
