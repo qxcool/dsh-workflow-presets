@@ -1,11 +1,36 @@
 {
+  "name": "dsh-workflow-presets",
+  "version": "1.0.1",
+  "description": "DeepSeek Harness plugin bundle: workflow-style agent presets (Claude Code, Codex CLI) declared as dsh-agent-preset rows for any DSH profile.",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "author": {
+    "name": "qxcool"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qxcool/dsh-workflow-presets.git"
+  },
+  "homepage": "https://github.com/qxcool/dsh-workflow-presets",
+  "bugs": {
+    "url": "https://github.com/qxcool/dsh-workflow-presets/issues"
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "dsh-plugin",
+    "agent-preset",
+    "preset",
+    "claude-code",
+    "codex"
+  ],
   "dsh": {
+    "engines": {
+      "dsh": ">=0.1.7-rc.1"
+    },
     "bundle": {
       "patch": "./cordis.patch.yml"
     }
-  },
-  "type": "module",
-  "private": true,
-  "name": "@local/dsh-workflow-presets",
-  "version": "1.0.0"
+  }
 }
